@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management Tool</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+		.try-btn {
+		background-color:blue !important;
+		color:white !important;
+		}
+        body {
+            font-family: "Lexend", sans-serif;
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+    <!-- Navigation -->
+    <nav class="container mx-auto px-4 py-6 flex justify-between items-center">
+        <div class="text-6xl font-bold text-indigo-600">Taskia</div>
+        <button class="py-2.5 px-5 me-2 mb-2 text-sm font-large text-blue-900 focus:outline-none bg-white rounded-full border border-blue-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-blue-600 dark:hover:text-white dark:hover:bg-gray-700">Try it free</button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient mt-9 py-16 md:py-24">
+        <div class="container mx-auto px-4">
+			<div class="grid grid-cols-2 gap-2">
+				<div class="max-w-10xl mx-auto py-auto text-left">
+					<h1 class="text-7xl md:text-10xl font-bold mb-6">Task management and lists Tool</h1>
+					<p class="text-xl mb-8 max-w-2xl mx-auto">We believe that designing products and services in close partnership with our clients is the only way to have a real impact on their business.</p>
+					<div class="flex flex-col sm:flex-row justify-center gap-4 mb-12">
+						<input  type="email" placeholder="Name@company.com" class="px-6 py-3 rounded-full border text-gray-900 w-full sm:w-80" >
+						<button class="try-btn py-2.5 px-5 me-2 mb-2 text-sm font-large text-white-900 focus:outline-none bg-blue rounded-full border border-blue-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Try it free</button>
+					</div>
+				</div>
+				<div class="max-w-4xl mx-auto text-center">
+					<img src="img/hero image.jpg" alt="Dashboard Preview" class="rounded-lg mx-auto">
+				</div>
+			</div>
+        </div>
+    </section>
+   
+    <!-- Features Section -->
+    <section class="py-16 md:py-24 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Featured Service that We Provide</h2>
+
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="feature-card bg-blue-500 p-8 rounded -lg shadow-md transition duration-300">
+                    <h3 class="text-xl font-semibold mb-3 text-center">Keep tasks in one place</h3>
+					<div class="max-w-4xl mx-auto">
+					<img src="img/Image 3.png" alt="Dashboard Preview" class="rounded-lg mx-auto">
+				</div>
+                    <p class="text-gray-600 text-center mt-6">Save time, avoid losing work and information, delegate, and track tasks to stay on schedule.</p>
+                </div>
+                
+                <div class="feature-card bg-sky-400/25 p-8 rounded-lg shadow-md transition duration-300">
+            
+                    <h3 class="text-xl font-semibold mb-3 text-center">Keep tasks in one place</h3>
+					<div class="max-w-4xl mx-auto">
+					<img src="img/Image 2.png" alt="Dashboard Preview" class="rounded-lg mx-auto">
+				</div>
+                    <p class="text-gray-600  text-center mt-6">Save time, avoid losing work and information, delegate, and track tasks to stay on schedule.</p>
+                </div>
+                
+                <div class="feature-card bg-sky-500/50 p-8 rounded-lg shadow-md transition duration-300">
+  
+                    <h3 class="text-xl font-semibold mb-3 text-center">Keep tasks in one place</h3>
+					<div class="max-w-4xl mx-auto">
+					<img src="img/Image 1.png" alt="Dashboard Preview" class="rounded-lg mx-auto">
+				</div>
+                    <p class="text-gray-600  text-center mt-6">Save time, avoid losing work and information, delegate, and track tasks to stay on schedule.</p>
+                </div>
+            </div>
+        </div>
+	
+
+<!-- Why Section -->
+<section class="hero-gradient mt-9 py-16 md:py-24">
+    <div class="container mx-auto px-4">
+        <div class="grid grid-cols-2 gap-2">
+		    <div class="max-w-4xl mx-auto text-center">
+                <img src="img/Image 8.jpg" alt="Dashboard Preview" class="rounded-lg shadow-xl mx-auto">
+            </div>
+            <div class="max-w-10xl mx-auto py-auto text-center">
+                <h1 class="text-4xl text-left md:text-10xl font-bold mb-6">Why do you need task management</h1>
+                <p class="text-xl text-left mb-8 max-w-2xl mx-auto">Do you waste time organizing sticky notes, searching your email
+					and apps for to-dos, and figuring out what to work on first?
+					Then you need one solution to prioritize your tasks, manage
+					your time, and meet your deadlines</p>
+                <div class="flex flex-col sm:flex-row justify gap-4 mb-12">
+                    <button class="try-btn py-2.5 px-5 me-2 mb-2 text-sm font-large text-white-900 focus:outline-none bg-blue rounded-full border border-blue-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Learn more</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section> 
+
+	<!-- test -->
+    <section class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4">
+			<div class="grid grid-cols-2 gap-2">
+				<div class="max-w-4xl mx-auto text-left">
+					<h2 class="text-3xl md:text-4xl font-bold mb-6">Seamless Team Workflow</h2>
+					<p class="text-xl text-gray-600 mb-12">Do you waste time organizing sticky notes, searching your email and apps for to-dos, and figuring out what to work on first? Then you need one solution to prioritize your tasks, manage your time, and meet your deadlines.</p>
+					<div class ="flex gap-6">
+						<img src="img/Image 6.jpg" alt="Task Management Preview" class="w-13 h-15">
+						<img src="img/Image 9.jpg" alt="Task Management Preview" class="w-15 h-15">
+					</div>
+				</div>
+				<div>
+					<img src="img/Image 7.jpg" alt="Task Management Preview">
+				</div>
+			</div>
+        </div>
+    </section>
+	
+	
+	<!-- final -->
+	<section class="py-16 md:py-24 bg-white">
+		<div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Trust us and feel free to try our service </h2>
+
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8 height-300px">
+                <div align="left" class="h-1/2 md:h-full ...">
+                    <img src="img/Image 4.jpg" >
+					
+                </div>
+                
+                <div align="center">
+					<h2 class="text-9xl md:text-9xl font-bold mb-4 text-indigo-600"> 100000 </h2>
+                    
+                </div>
+                
+                <div  align= >
+					<img src="img/Image 5.jpg"  >
+                    
+                </div>
+            </div>
+        </div>
+	
+	
+	
+
+    <!-- Stats Section -->
+    <section class="py-16 md:py-24 bg-white text-black">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">Get better work done</h2>
+            <h3 class="text-3xl md:text-2xl font-bold mb-4">See why millions of people across 195 countries use Dash.</h3>
+            
+            <div class="flex flex-col sm:flex-row justify-center gap-8 mb-16">
+                <input  type="email" placeholder="Name@company.com" class="px-6 py-3 rounded-full border text-gray-900 w-full sm:w-80" >
+						<button class="try-btn py-2.5 px-5 me-2 mb-2 text-sm font-large text-white-900 focus:outline-none bg-blue rounded-full border border-blue-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Try it free</button>
+            </div>
+            
+            </div>
+        </div>
+    </section>
+
+    <!-- last p -->
+    
+      
+       
+      
+    <!-- Footer -->
+	<!--
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="text-2xl font-bold text-white mb-6 md:mb-0">Taskia</div>
+                <div class="text-gray-400">
+                    &copy; 2023 Taskia. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle would go here if needed
+        document.addEventListener('DOMContentLoaded', function() {
+            // Animation for feature cards when they come into view
+            const featureCards = document.querySelectorAll('.feature-card');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animate-fade-in');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.1 });
+            
+            featureCards.forEach(card => {
+                observer.observe(card);
+            });
+        });
+    </script>
+	-->
+</body>
+</html>
